@@ -1,0 +1,95 @@
+@font-face {
+  font-family: OldStandard;
+  src: url(/src/Fonts/Old_Standard/OldStandardTT-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(/src/Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0vw;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(56, 56, 56);
+  border-radius: 5vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.256);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-img {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(rgba(0 ,0 ,0 ,0.3),rgb(0 ,0 ,0 ,0.3))  ,url(/src/Images/bg_home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 700px) {
+  nav {
+      height: 10vh;
+  }
+
+  .nav-mid,
+  .nav-right {
+      display: none;
+  }
+
+  .menubar {
+      display: block;
+  }
+
+  .main-heading {
+      width: 100%;
+      margin: 0;
+      align-self: center;
+      margin-left: 10vw;
+      justify-content: center;
+  }
+
+  .main-head {
+      font-size: 10vw;
+  }
+
+  .para-head {
+      font-size: 1.5vh;
+      line-height: 2.5vh;
+  }
+
+  .main-heading button {
+      width: 40%;
+      font-size: 1.5vh;
+  }
+}

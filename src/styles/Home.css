@@ -1,0 +1,49 @@
+.home {
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.main-heading {
+    width: 45%;
+    height: 95vh;
+    color: #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5vh 0 0 15vw;
+  }
+  
+  .sub-head {
+    font-size: 1.5vh;
+    letter-spacing: 0.2vw;
+  }
+  
+  .main-head {
+    font-family: OldStandard;
+    padding: 3vh 0 2vh;
+    color: #fff;
+    font-size: 8vh;
+    line-height: normal;
+  }
+  
+  .para-head {
+    font-size: 1.6vh;
+    width: 90%;
+    line-height: 3.5vh;
+    letter-spacing: 0.1vw;
+    padding-bottom: 3vh;
+  }
+  
+  .main-heading button {
+    width: 30%;
+    background-color: transparent;
+    color: #dadada;
+    padding: 2.2vh 0;
+    border-radius: 50px;
+    border: 1px solid #dadada86;
+    margin-top: 2vh;
+    font-size: 1.8vh;
+    letter-spacing: 0.1vw;
+  }

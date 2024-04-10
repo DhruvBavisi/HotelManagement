@@ -1,0 +1,110 @@
+.about p {
+    letter-spacing: 0.05vw;
+    font-size: 1vw;
+    line-height: 3vh;
+    padding: 2vh 0;
+}
+
+.about h1 {
+    font-family: OldStandard;
+}
+
+.about-intro {
+    width: 100vw;
+    height: 70vh;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-intro p {
+    width: 48%;
+}
+
+.about-intro img {
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 2vw;
+}
+
+.about-activities {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9f7f5;
+    display: flex;
+}
+
+.about-left {
+    width: 50%;
+    height: 100%;
+}
+
+.about-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-right {
+    width: 50%;
+    height: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right h1 {
+    width: 65%;
+    font-size: 3vw;
+}
+
+.about-right p {
+    width: 70%;
+    font-size: 0.9vw;
+}
+
+.about-right img {
+    padding: 2vh 0;
+    width: 65%;
+}
+
+.about-achievements {
+    width: 100vw;
+    height: 60vh;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-achievements p {
+    padding: 0;
+}
+
+.about-achieve-info {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vh;
+}
+
+.achieve-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achieve-info p {
+    font-size: 0.9vw;
+}

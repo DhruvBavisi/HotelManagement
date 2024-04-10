@@ -1,0 +1,80 @@
+.rooms p {
+    color: #000;
+    letter-spacing: 0.05vw;
+    font-size: 1vw;
+    line-height: 3vh;
+    padding: 2vh 0;
+}
+
+.rooms h1 {
+    color: #000;
+    font-family: OldStandard;
+}
+
+.explore-rooms {
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f7f57a;
+}
+
+.explore-rooms h1 {
+    width: 80vw;
+    padding: 5vh;
+}
+
+.room-img {
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room-img i {
+    font-size: 1.5vw;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container img {
+    width: 25vw;
+}
+
+.img-container span {
+    font-family: OldStandard;
+    font-weight: bold;
+    padding: 2vh 0;
+
+}
+
+.rooms-testimonials {
+    width: 100vw;
+    height: 60vh;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rooms-testimonials h1 {
+    width: 70vw;
+    line-height: 7vh;
+    font-size: 2vw;
+}
+
+.rooms-testimonials img {
+    width: 22vw;
+    position: absolute;
+    top: -10vh;
+    left: -5vw;
+}
