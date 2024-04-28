@@ -6,14 +6,14 @@
     padding: 2vh 0;
 }
 
-.rooms h1 {
+.rooms h1,h2 {
     color: #000;
     font-family: OldStandard;
 }
 
 .explore-rooms {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -80,9 +80,55 @@
 }
 
 .rooms form {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #000;
+    background-color: #f9f7f5;
+}
+
+.rooms form h2 {
+    font-size: 3vw;
+}
+
+.rooms form label {
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+}
+
+.rooms form input {
+    width: 15vw;
+    height: 10vh;
+    font-size: 2vw;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+}
+
+.rooms form input:focus {
+    outline: none;
+}
+
+.check-dates-container {
+    padding: 5vh 0;
+    display: flex;
+    gap: 5vw;
+}
+
+.check-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rooms form button {
+    width: 15vw;
+    height: 8vh;
+    font-size: 1.2vw;
+    background-color: #000;
     color: #fff;
+    border-radius: 25px;
 }

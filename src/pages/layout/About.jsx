@@ -24,7 +24,7 @@ export default function About() {
         <p>We are the top leading hotel with 22 years of experiences.</p>
         <div className="about-achieve-info">
           <div className="achieve-info"><h1>25k</h1><p>HAPPY CLIENTS</p></div>
-          <div className="achieve-info"><h1>160</h1><p>TOTSL ROOMS</p></div>
+          <div className="achieve-info"><h1>160</h1><p>TOTAL ROOMS</p></div>
           <div className="achieve-info"><h1>28</h1><p>AWARDS WON</p></div>
           <div className="achieve-info"><h1>100</h1><p>TEAM MEMBERS</p></div>
         </div>

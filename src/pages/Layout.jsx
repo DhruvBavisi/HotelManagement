@@ -3,6 +3,7 @@ import Home from './layout/Home'
 import About from './layout/About'
 import Rooms from './layout/Rooms'
 import Contact from './layout/Contact'
+import Footer from './layout/Footer'
 
 export default function layout() {
     return (
@@ -19,6 +20,9 @@ export default function layout() {
             </div>
             <div className="contact" id="contact">
                 <Contact />
+            </div>
+            <div className="footer" id="footer">
+                <Footer />
             </div>
         </>
     )
