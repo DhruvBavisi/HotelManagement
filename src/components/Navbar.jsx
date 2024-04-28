@@ -14,8 +14,8 @@ export default function Navbar() {
           <HashLink to="#home" className='nav-link active' aria-current='page' smooth>Home</HashLink>
           <HashLink to="#about" className='nav-link active' smooth>About Us</HashLink>
           <HashLink to="#rooms" className='nav-link active' smooth>Rooms</HashLink>
-          <HashLink to="/">Sevices</HashLink>
-          <HashLink to="/">Contact</HashLink>
+          {/* <HashLink to="/">Sevices</HashLink> */}
+          <HashLink to="#contact" smooth>Contact</HashLink>
         </div>
         <div className="nav-right">
           <NavLink href="">Book Now</NavLink>

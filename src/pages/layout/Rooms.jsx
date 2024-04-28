@@ -1,9 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 import '../../styles/Rooms.css'
 
 export default function Rooms() {
+    const [startDate, setStartDate] = useState(null);
+    const [endDate, setEndDate] = useState(null);
+
+    const checkAvailability = () => {
+        if (startDate && endDate) {
+          // Perform availability check logic here, for example:
+          // Let's assume availability is checked against a hardcoded date range for demonstration purposes
+          const availableStartDate = new Date('2024-05-01');
+          const availableEndDate = new Date('2024-05-10');
+    
+          if (startDate >= availableStartDate && endDate <= availableEndDate) {
+            setAvailabilityMessage('Rooms are available for the selected dates!');
+          } else {
+            setAvailabilityMessage('Sorry, rooms are not available for the selected dates.');
+          }
+        } else {
+          setAvailabilityMessage('Please select both check-in and check-out dates.');
+        }
+      };
+
     return (
         <>
+            <form action="">
+                <h2>Select Dates for Availability</h2>
+                <div>
+                    <label>Arrival: </label>
+                    <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+                </div>
+                <div>
+                    <label>Depature: </label>
+                    <DatePicker selected={endDate} onChange={date => setEndDate(date)} />
+                </div>
+                <button onClick={checkAvailability}>Check Availability</button>
+            </form>
             <div className='explore-rooms'>
                 <h1>Explore Our Rooms</h1>
                 <div className="room-img">

@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './layout/Home'
 import About from './layout/About'
 import Rooms from './layout/Rooms'
+import Contact from './layout/Contact'
 
 export default function layout() {
     return (
@@ -15,6 +16,9 @@ export default function layout() {
             </div>
             <div className='rooms' id="rooms">
                 <Rooms />
+            </div>
+            <div className="contact" id="contact">
+                <Contact />
             </div>
         </>
     )
