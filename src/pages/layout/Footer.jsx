@@ -21,7 +21,7 @@ export default function Footer() {
                     <h2>Contact</h2>
                     <p>Tea Berry, Marinette, India</p>
                     <p>+91 93977 74546</p>
-                    <p>palmoasis@gmail.com</p>
+                    <p>palmoasisinn@gmail.com</p>
                 </div>
                 <div className="foot-container">
                     <h2>Get Social</h2>
@@ -35,7 +35,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="copy-rights">
-                <p>© 2024 Copyright Palm Oasis. All rights reserved</p>
+                <p>© 2024 Copyright Palm Oasis Inn. All rights reserved</p>
                 <p>Payment Methods: <img src="/src/Images/payment.png" alt="" /></p>
             </div>
         </>

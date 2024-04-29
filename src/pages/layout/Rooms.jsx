@@ -42,7 +42,7 @@ export default function Rooms() {
             <DatePicker selected={endDate} onChange={date => setEndDate(date)} />
           </div>
         </div>
-        <button onClick={checkAvailability}>Check Availability</button>
+        <button className='check-avaiability-form-btn' onClick={checkAvailability}>Check Availability</button>
       </form>
       <div className='explore-rooms'>
         <h1>Explore Our Rooms</h1>

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="bg-img"></div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path='/' element={<Layout />} />
       </Routes>

@@ -36,11 +36,11 @@
     padding-bottom: 3vh;
   }
   
-  .main-heading button {
-    width: 30%;
+  .main-heading a {
+    /* width: 30%; */
     background-color: transparent;
     color: #dadada;
-    padding: 2.2vh 0;
+    padding: 2.4vh 2.5vw; 
     border-radius: 50px;
     border: 1px solid #dadada86;
     margin-top: 2vh;
